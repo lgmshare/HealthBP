@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@mipmap/ic_back">
+
+        <TextView
+            android:id="@+id/touch_outside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enter Your BP"
+            android:textColor="@color/tc_30313c"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_systolic_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Systolic"
+                        android:textColor="@color/tc_4a4f75"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="mmHg"
+                        android:textColor="@color/tc_cbcccf"
+                        android:textSize="12sp" />
+
+                    <com.obody.health.view.NumberPickerView
+                        android:id="@+id/picker_systolic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="148dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:contentDescription="test_number_picker_view"
+                        app:npv_DividerColor="#E9E9F2"
+                        app:npv_ItemPaddingHorizontal="12dp"
+                        app:npv_ItemPaddingVertical="12dp"
+                        app:npv_MaxValue="200"
+                        app:npv_MinValue="0"
+                        app:npv_RespondChangeOnDetached="false"
+                        app:npv_ShowDivider="true"
+                        app:npv_ShownCount="3"
+                        app:npv_TextColorNormal="#D8D8E7"
+                        app:npv_TextColorSelected="#4A4F75"
+                        app:npv_TextSizeNormal="32sp"
+                        app:npv_TextSizeSelected="32sp"
+                        app:npv_WrapSelectorWheel="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_diastolic_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diastolic"
+                        android:textColor="@color/tc_4a4f75"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="mmHg"
+                        android:textColor="@color/tc_cbcccf"
+                        android:textSize="12sp" />
+
+                    <com.obody.health.view.NumberPickerView
+                        android:id="@+id/picker_diastolic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="148dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:contentDescription="test_number_picker_view"
+                        app:npv_DividerColor="#E9E9F2"
+                        app:npv_ItemPaddingHorizontal="12dp"
+                        app:npv_ItemPaddingVertical="12dp"
+                        app:npv_MaxValue="200"
+                        app:npv_MinValue="0"
+                        app:npv_RespondChangeOnDetached="false"
+                        app:npv_ShowDivider="true"
+                        app:npv_ShownCount="3"
+                        app:npv_TextColorNormal="#D8D8E7"
+                        app:npv_TextColorSelected="#4A4F75"
+                        app:npv_TextSizeNormal="32sp"
+                        app:npv_TextSizeSelected="32sp"
+                        app:npv_WrapSelectorWheel="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_pulse_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pulse"
+                        android:textColor="@color/tc_4a4f75"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="BPM"
+                        android:textColor="@color/tc_cbcccf"
+                        android:textSize="12sp" />
+
+                    <com.obody.health.view.NumberPickerView
+                        android:id="@+id/picker_pulse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="148dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:contentDescription="test_number_picker_view"
+                        app:npv_DividerColor="#E9E9F2"
+                        app:npv_ItemPaddingHorizontal="12dp"
+                        app:npv_ItemPaddingVertical="12dp"
+                        app:npv_MaxValue="200"
+                        app:npv_MinValue="0"
+                        app:npv_RespondChangeOnDetached="false"
+                        app:npv_ShowDivider="true"
+                        app:npv_ShownCount="3"
+                        app:npv_TextColorNormal="#D8D8E7"
+                        app:npv_TextColorSelected="#4A4F75"
+                        app:npv_TextSizeNormal="32sp"
+                        app:npv_TextSizeSelected="32sp"
+                        app:npv_WrapSelectorWheel="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_bp_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="@string/bp_level_1"
+                android:textColor="@color/tc_30313c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_bp_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/sys_x_dia_y"
+                android:textColor="@color/tc_8f8fa3"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_intro_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/intro_bar" />
+
+                <ImageView
+                    android:id="@+id/iv_intro_angle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_angle" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_bp_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/tc_8f8fa3"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/shape_3f4ab7_r12"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

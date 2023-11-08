@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">HealthBP</string>
+    <string name="bp">BP</string>
+    <string name="health">Health</string>
+    <string name="us">US</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="pulse">Pulse</string>
+
+    <string name="mmhg">mmHg</string>
+    <string name="_mmhg_">（mmHg）</string>
+    <string name="bpm">BPM</string>
+    <string name="_bpm_">（BPM）</string>
+
+    <string name="sys_x_dia_y">SYS: %d, DIA: %d</string>
+
+    <string name="bp_level_1">Hypotension</string>
+    <string name="bp_level_2">Normal</string>
+    <string name="bp_level_3">Elevated</string>
+    <string name="bp_level_4">Hypertension·Stage 1</string>
+    <string name="bp_level_5">Hypertension·Stage 2</string>
+    <string name="bp_level_6">Hypertension·Stage 3</string>
+
+
+    <string name="private_policy">Private Policy</string>
+    <string name="private_policy_agreement">Please note that HealthBP is not designed to substitute professional medical guidance, diagnosis, or treatment. This application does not have the capability to assess blood pressure. Its primary purpose is to assist users in conveniently recording and tracking their blood pressure measurements.\n\n
+        HealthBP is committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our mobile application (the "App").\n\n
+        We may collect and process the following data:\n\n
+        Usage Data: We may collect data about your device, how you use the App, and the time you spend on it.\n\n
+        Health Data: HealthBP allows you to input and track your blood pressure readings.\n\n
+        Data Security\n\n
+        We are committed to ensuring that your data is secure. However, please be aware that no method of transmission over the internet or electronic storage is entirely secure.\n\n
+        Disclosure of Your Information\n\n
+        HealthBP will not sell, trade, or otherwise transfer your personal information to third parties. We may share your data with third-party service providers to improve the App\'s functionality and user experience.\n\n
+        By downloading and using the App, you agree to the practices outlined in this Privacy Policy. If you do not agree with our policies and practices, you should not use the App
+    </string>
+
+    <string name="article_text_1">
+        High blood pressure during pregnancy can be a serious health concern for both the mother and the baby. It is important for expecting mothers to understand the impact of high blood pressure during pregnancy and how to manage it. Here are some tips for expecting mothers to manage blood pressure during different stages of pregnancy:\n\n
+        First Trimester\n\n
+        During the first trimester, blood pressure may decrease slightly due to hormonal changes. Here are some tips for managing blood pressure during the first trimester:\n\n
+        - Attend regular prenatal check-ups to monitor blood pressure and overall health\n
+        - Eat a healthy diet to support blood pressure health\n
+        - Manage stress through relaxation techniques and self-care\n\n
+        Second Trimester\n\n
+        During the second trimester, blood pressure may increase slightly. Here are some tips for managing blood pressure during the second trimester:\n\n
+        - Attend regular prenatal check-ups to monitor blood pressure and overall health\n
+        - Continue to eat a healthy diet to support blood pressure health\n
+        - Monitor physical activity levels and avoid overexertion\n\n
+        Third Trimester\n\n
+        During the third trimester, blood pressure may increase further due to the demands of the growing fetus. Here are some tips for managing blood pressure during the third trimester:\n\n
+        - Attend regular prenatal check-ups to monitor blood pressure and overall health\n
+        - Monitor physical activity levels and avoid overexertion\n
+        - Manage stress through relaxation techniques and self-care\n\n
+        Managing blood pressure during pregnancy is important for both the mother and the baby. Attending regular prenatal check-ups, monitoring physical activity, eating a healthy diet, managing stress, and working with a healthcare provider are all ways to manage blood pressure during pregnancy. By making these lifestyle changes and working with a healthcare provider, it is possible to prevent or manage high blood pressure during pregnancy and reduce the risk of serious health complications.\n\n
+    </string>
+    <string name="article_text_2">
+                Elevated blood pressure throughout pregnancy poses a significant health risk for both the mother and the baby. It is imperative that pregnant women grasp the implications of high blood pressure during this period and learn how to effectively control it. Below, we offer guidance to expectant mothers on maintaining healthy blood pressure at various pregnancy stages:\n\n
+        Risks of Hypertension During Pregnancy\n\n
+        Hypertension during pregnancy can lead to serious complications for both the mother and the baby. Some of the risks include:\n\n
+        - Preeclampsia, a condition that can cause seizures, stroke, and other serious complications\n
+        - Premature birth\n
+        - Low birth weight\n
+        - Placental abruption, a condition where the placenta separates from the uterus\n
+        - Fetal growth restriction\n\n
+        Causes of Hypertension During Pregnancy\n\n
+        The exact causes of hypertension during pregnancy are not fully understood, but some factors that may contribute to it include:\n\n
+        - Obesity\n
+        - Chronic hypertension\n
+        - Diabetes\n
+        - Kidney disease\n
+        - Family history of hypertension\n\n
+        Precautions for Managing Hypertension During Pregnancy\n\n
+        During the first trimester, blood pressure may decrease slightly due to hormonal changes. During the second trimester, blood pressure may increase slightly. During the third trimester, blood pressure may increase further due to the demands of the growing fetus. \n\n
+        Managing hypertension during pregnancy is important for both the mother and the baby. Attending regular prenatal check-ups, monitoring physical activity, eating a healthy diet, managing stress, and working with a healthcare provider are all ways to manage hypertension during pregnancy. By making these lifestyle changes and working with a healthcare provider, it is possible to prevent or manage high blood pressure during pregnancy and reduce the risk of serious health complications.\n\n
+    </string>
+    <string name="article_text_3">
+        Hypertension in pregnancy can pose a serious health threat to both the mother and the unborn child. Expecting mothers should be well-informed about the impact of high blood pressure during pregnancy and strategies for its management. Here are some recommendations for pregnant women to address blood pressure concerns during different phases of pregnancy:\n\n
+        Exercise Regularly\n
+        Regular exercise can help maintain healthy blood pressure during pregnancy. Recent studies have shown that proper exercise is associated with a significantly reduced risk of gestational hypertensive disorders overall. Structured exercise or yoga have a beneficial effect for preventing the onset of pregnancy-induced hypertension (HDP). Here are some tips for incorporating exercise into your routine:\n\n
+        - Discuss appropriate physical activity levels with a healthcare provider\n
+        - Avoid high-impact activities that may increase the risk of injury or overexertion\n
+        - Listen to your body and rest when needed\n\n
+        Eat a Healthy Diet\n\n
+        Eating a healthy diet is important for maintaining healthy blood pressure during pregnancy. A healthy diet includes plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats. Here are some tips for eating a healthy diet during pregnancy:\n\n
+        - Eat a variety of fruits and vegetables to get a range of nutrients\n
+        - Choose whole grains such as brown rice and whole wheat bread\n
+        - Include lean proteins such as chicken, fish, and beans\n
+        - Limit your intake of processed foods, sugary drinks, and foods high in saturated and trans fats\n\n
+        Attend Regular Prenatal Check-Ups\n\n
+        Regular prenatal check-ups are important for monitoring blood pressure and overall health during pregnancy. Here are some tips for attending regular prenatal check-ups:\n\n
+        - Attend all scheduled prenatal appointments with a healthcare provider\n
+        - Discuss any concerns or questions about blood pressure or other health issues with a healthcare provider\n
+        Manage Stress\n\n
+        Stress can have a negative impact on blood pressure during pregnancy. Here are some tips for managing stress during pregnancy:\n
+        - Practice relaxation techniques such as deep breathing, meditation, and yoga\n
+        - Get enough sleep to help reduce stress levels\n
+        - Prioritize self-care by doing things you enjoy and taking time for yourself\n\n
+        Maintaining healthy blood pressure during pregnancy is important for both the mother and the baby. Regular exercise, eating a healthy diet, attending regular prenatal check-ups, managing stress, and working with a healthcare provider are all ways to maintain healthy blood pressure during pregnancy. By making these lifestyle changes and working with a healthcare provider, it is possible to prevent or manage high blood pressure during pregnancy and reduce the risk of serious health complications.\n
+    </string>
+    <string name="article_text_4">
+        Pregnancy-induced hypertension can be a significant health concern for both the mother and the developing fetus. It\'s essential for expectant mothers to have a good understanding of the effects of elevated blood pressure during pregnancy and how to effectively manage it. Below, you\'ll find suggestions for pregnant women to deal with blood pressure issues at various stages of pregnancy:\n\n
+        Attend Regular Prenatal Check-Ups\n\n
+        Regular prenatal check-ups are important for monitoring blood pressure and overall health during pregnancy. Here are some tips for attending regular prenatal check-ups:\n\n
+        - Attend all scheduled prenatal appointments with a healthcare provider\n
+        - Discuss any concerns or questions about blood pressure or other health issues with a healthcare provider\n\n
+        Medication Safety\n\n
+        If medication is needed to manage high blood pressure during pregnancy, it is important to work with a healthcare provider to ensure medication safety. Here are some tips for medication safety during pregnancy:\n\n
+        - Work with a healthcare provider to determine the safest medication and dose for managing high blood pressure during pregnancy\n
+        - Take medication exactly as prescribed and do not stop taking it or change the dose without consulting a healthcare provider\n
+        - Be aware of potential side effects of medication and report any concerns to a healthcare provider\n\n
+        Managing high blood pressure during pregnancy is important for both the mother and the baby. Attending regular prenatal check-ups, working with a healthcare provider to determine medication safety, and taking medication as prescribed are all ways to manage high blood pressure during pregnancy. By making these lifestyle changes and working with a healthcare provider, it is possible to prevent or manage high blood pressure during pregnancy and reduce the risk of serious health complications.\n\n
+    </string>
+</resources>

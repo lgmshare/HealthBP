@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/main_bottom_menu1_selector"
+        android:title="@string/bp" />
+    <item
+        android:id="@+id/product"
+        android:icon="@drawable/main_bottom_menu2_selector"
+        android:title="@string/health" />
+    <item
+        android:id="@+id/merchant"
+        android:icon="@drawable/main_bottom_menu3_selector"
+        android:title="@string/us" />
+
+</menu>
